@@ -1,0 +1,75 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-enemy-container{
+    display: flex;
+    padding: 5vh;
+    background-color: beige;
+    width: 30vw;
+    height: 30vh;
+    position: relative;
+}
+
+#player-container{
+    background-color: cadetblue;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+#player-hp-container{
+    background-color: green;
+    width: 100%;
+}
+.health-fill{
+    background-color: green;
+    width: 100%;
+    transition: width 0.3s ease;
+}
+
+#enemy-container{
+    background-color:chocolate;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+#enemy-hp-container{
+    background-color: green;
+    width: 100%;
+}
+
+
+.action-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px;
+    margin: 2vh;
+}
+
+.action-container button{
+    background-color: aquamarine;
+    color: purple
+}
+

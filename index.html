@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RPG Prototype</title>
+</head>
+<body>
+    
+    <div class="main-container">
+
+        <div class="content-container">
+            <h1 id="kill-count"></h1>
+            <h4>Enemies Defeated</h4>
+            <div class="player-enemy-container">
+                
+                <div id="enemy-container">
+                    <div id="enemy-hp-container">
+                        <div class="health-fill" id="enemy-hp"></div>
+                    </div>
+                    <div id="enemy-name"></div>   
+                </div>
+                
+                <div id="player-container">  
+                    <div id="player-hp-container">
+                        <div class="health-fill" id="player-hp"></div>
+                    </div>
+                    <div id="player-name"></div>
+                </div>
+                
+            </div>
+            
+            <div class="action-container">
+                
+                <button id="fight-btn">Fight</button>
+                <button id="def-btn">Defend</button>
+                <button id="heal-btn">Heal</button>
+                <button id="flee-btn">Flee</button>
+                
+            </div>
+        </div>
+            
+    </div>
+        
+    <script src="mainScript.js"></script>
+</body>
+</html>
